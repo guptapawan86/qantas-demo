@@ -145,3 +145,21 @@ async function loadPage() {
 }
 
 loadPage();
+
+const doFoo = ({ detail: payload }) => {
+  console.log('something happened', payload);
+  // your custom code goes here
+};
+
+const sk = document.querySelector('aem-sidekick');
+if (sk) {
+  // sidekick already loaded
+  sk.addEventListener('foo', doFoo);
+} else {
+  // wait for sidekick to be loaded
+  document.addEventListener('sidekick-ready', () => {
+    // sidekick now loaded
+    document.querySelector('aem-sidekick')
+      .addEventListener('foo', doFoo);
+  }, { once: true });
+}
