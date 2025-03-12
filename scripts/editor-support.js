@@ -88,14 +88,7 @@ async function applyChanges(event) {
   return false;
 }
 
-/*function updateUEInstrumentation() {
-
-alert("hello");
-debugger;
-const main = document.querySelector('main');
-
-}*/
-/*function attachEventListners(main) {
+function attachEventListners(main) {
   [
     'aue:content-patch',
     'aue:content-update',
@@ -106,14 +99,8 @@ const main = document.querySelector('main');
   ].forEach((eventType) => main?.addEventListener(eventType, async (event) => {
     event.stopPropagation();
     const applied = await applyChanges(event);
-     if(applied) {
-     updateUEInstrumentation();
-     }
     if (!applied) window.location.reload();
   }));
-}*/
+}
 
-//attachEventListners(document.querySelector('main'));
-
-// update UE component filters on page load
-//updateUEInstrumentation();
+attachEventListners(document.querySelector('main'));
