@@ -88,14 +88,14 @@ async function applyChanges(event) {
   return false;
 }
 
-function updateUEInstrumentation() {
+/*function updateUEInstrumentation() {
 
 alert("hello");
 debugger;
 const main = document.querySelector('main');
 
-}
-function attachEventListners(main) {
+}*/
+/*function attachEventListners(main) {
   [
     'aue:content-patch',
     'aue:content-update',
@@ -111,9 +111,9 @@ function attachEventListners(main) {
      }
     if (!applied) window.location.reload();
   }));
-}
+}*/
 
-attachEventListners(document.querySelector('main'));
+//attachEventListners(document.querySelector('main'));
 
 // update UE component filters on page load
-updateUEInstrumentation();
+//updateUEInstrumentation();
