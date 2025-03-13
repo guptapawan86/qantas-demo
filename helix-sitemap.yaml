@@ -1,6 +1,5 @@
 sitemaps:
   default:
-    origin: www.qantas-demo.com
     source: /query-index.json
     destination: /sitemap.xml
     lastmod: YYYY-MM-DD
