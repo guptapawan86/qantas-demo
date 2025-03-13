@@ -3,7 +3,8 @@
     "/content/qantas-demo/:/",
     "/content/qantas-demo/configuration:/.helix/config.json",
     "/content/qantas-demo/metadata:/metadata.json",
-    "/content/qantas-demo/redirects:/redirects.json"
+    "/content/qantas-demo/redirects:/redirects.json",
+    "/content/qantas-demo/metadata:/metadata.json"
   ],
   "includes": [
     "/content/qantas-demo/"
