@@ -7,7 +7,7 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
  */
 export default async function decorate(block) {
   const aemauthorurl = getMetadata('authorurl') || '';
-  const aempublishurl = getMetadata('publishurl') || '';
+  const aempublishurl = getMetadata('publishurl') || 'https://publish-p137117-e1552554.adobeaemcloud.com';
   const persistedquery = '/graphql/execute.json/qantas-demo/offerByPath';
   const contentPath = block.querySelector(':scope div:nth-child(1) > div a')?.textContent?.trim();
   const variationname =
