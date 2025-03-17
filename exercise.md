@@ -53,7 +53,7 @@ forms is leveraged.
 - [x] Social links in the footer.
 
 
-## Pre-requisites
+## Setup Steps
 1. [ ] Set up the  project repository.
 2. [ ] Create Wknd site content.
 3. [ ] Develop the required web pages and sections.
