@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/qantas-demo/:/",
+    "/content/qantas-demo111/:/",
     "/content/qantas-demo/configuration:/.helix/config.json",
     "/content/qantas-demo/metadata:/metadata.json",
     "/content/qantas-demo/redirects:/redirects.json",
